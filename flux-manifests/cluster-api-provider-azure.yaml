@@ -1,0 +1,13 @@
+api_version: generators.giantswarm.io/v1
+app_catalog: control-plane-test-catalog
+app_destination_namespace: giantswarm
+app_name: cluster-api-provider-azure
+app_version: 1.1.0-0484a32a61a34799fec888191561d7bc7dbbec77
+kind: Konfigure
+metadata:
+  annotations:
+    config.kubernetes.io/function: |-
+      exec:
+        path: /plugins/konfigure
+  name: cluster-api-provider-azure
+name: cluster-api-provider-azure
