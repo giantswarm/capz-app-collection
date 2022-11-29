@@ -15,7 +15,6 @@ generators:
 - fluent-logshipping-app.yaml
 - grafana.yaml
 - happa.yaml
-- irsa-operator.yaml
 - kyverno-policies-dx.yaml
 - kyverno-policies-observability.yaml
 - kyverno-policies-ux.yaml
