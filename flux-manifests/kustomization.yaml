@@ -3,7 +3,6 @@ generators:
 - app-exporter.yaml
 - app-operator.yaml
 - athena.yaml
-- cluster-api-provider-azure.yaml
 - cluster-api.yaml
 - cluster-apps-operator.yaml
 - dashboards.yaml
