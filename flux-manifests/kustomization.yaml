@@ -5,6 +5,7 @@ generators:
 - athena.yaml
 - cluster-api-provider-azure.yaml
 - cluster-api.yaml
+- cluster-api-monitoring.yaml
 - cluster-apps-operator.yaml
 - dashboards.yaml
 - deletion-blocker-operator.yaml
