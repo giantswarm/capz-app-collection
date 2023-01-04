@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-test-catalog
 app_destination_namespace: giantswarm
 app_name: cluster-api-monitoring
-app_version: 1.0.0-1765d8419ebea393c024438855e0373134aac536
+app_version: 1.0.0-10a8bd4b6c30c42642f2529bdef352d362b6ba66
 kind: Konfigure
 metadata:
   annotations:
