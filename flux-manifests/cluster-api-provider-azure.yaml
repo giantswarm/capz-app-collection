@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-test-catalog
 app_destination_namespace: giantswarm
 app_name: cluster-api-provider-azure
-app_version: 1.6.0-0656811c9383f17b1c55840f75d62097b7f083a1
+app_version: 1.6.0-1e28d6611dea3dee74c43cd216f4a005556a2ad8
 kind: Konfigure
 metadata:
   annotations:
