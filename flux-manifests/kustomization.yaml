@@ -33,3 +33,5 @@ generators:
 - promxy-app.yaml
 - rbac-operator.yaml
 - silence-operator.yaml
+- vertical-pod-autoscaler-app.yaml
+- vertical-pod-autoscaler-crd.yaml
