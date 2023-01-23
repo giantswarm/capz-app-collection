@@ -3,6 +3,7 @@ generators:
 - app-exporter.yaml
 - app-operator.yaml
 - athena.yaml
+- azure-ad-pod-identity-app.yaml
 - cluster-api-monitoring.yaml
 - cluster-api-provider-azure.yaml
 - cluster-api.yaml
