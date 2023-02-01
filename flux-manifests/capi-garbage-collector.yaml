@@ -1,8 +1,8 @@
 api_version: generators.giantswarm.io/v1
-app_catalog: control-plane-test-catalog
+app_catalog: control-plane-catalog
 app_destination_namespace: giantswarm
 app_name: capi-garbage-collector
-app_version: 0.1.4-b0d534267f2a9501cb24ef5eed19b56a0d1327ac
+app_version: 0.1.5
 kind: Konfigure
 metadata:
   annotations:
