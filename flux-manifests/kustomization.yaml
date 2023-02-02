@@ -35,3 +35,6 @@ generators:
 - promxy-app.yaml
 - rbac-operator.yaml
 - silence-operator.yaml
+- starboard-exporter.yaml
+- trivy-operator.yaml
+- trivy.yaml
