@@ -16,9 +16,9 @@ generators:
 - etcd-backup-operator.yaml
 - grafana.yaml
 - happa.yaml
+- kyverno-policies-connectivity.yaml
 - kyverno-policies-dx.yaml
 - kyverno-policies-observability.yaml
-- kyverno-policies-connectivity.yaml
 - kyverno-policies-ux.yaml
 - kyverno-policies.yaml
 - kyverno.yaml
