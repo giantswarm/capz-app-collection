@@ -18,6 +18,7 @@ generators:
 - happa.yaml
 - kyverno-policies-dx.yaml
 - kyverno-policies-observability.yaml
+- kyverno-policies-connectivity.yaml
 - kyverno-policies-ux.yaml
 - kyverno-policies.yaml
 - kyverno.yaml
