@@ -9,5 +9,5 @@ metadata:
     config.kubernetes.io/function: |-
       exec:
         path: /plugins/konfigure
-  name: external-dns-app
-name: external-dns-app
+  name: external-dns
+name: external-dns
