@@ -15,6 +15,7 @@ generators:
 - dns-operator-azure.yaml
 - encryption-provider-operator.yaml
 - etcd-backup-operator.yaml
+- external-dns.yaml
 - grafana.yaml
 - happa.yaml
 - kyverno-policies-connectivity.yaml
