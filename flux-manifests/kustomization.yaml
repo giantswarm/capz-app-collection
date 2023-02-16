@@ -12,6 +12,7 @@ generators:
 - dashboards.yaml
 - deletion-blocker-operator.yaml
 - dex-app.yaml
+- dns-operator-azure.yaml
 - encryption-provider-operator.yaml
 - etcd-backup-operator.yaml
 - grafana.yaml

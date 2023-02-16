@@ -1,0 +1,13 @@
+api_version: generators.giantswarm.io/v1
+app_catalog: control-plane-test-catalog
+app_destination_namespace: giantswarm
+app_name: dns-operator-azure
+app_version: 0.4.0-1d1f2613ddc5748ec5d99eed159360d8d437cf8a
+kind: Konfigure
+metadata:
+  annotations:
+    config.kubernetes.io/function: |-
+      exec:
+        path: /plugins/konfigure
+  name: dns-operator-azure
+name: dns-operator-azure
