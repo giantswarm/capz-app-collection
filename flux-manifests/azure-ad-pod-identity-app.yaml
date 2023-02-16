@@ -9,5 +9,5 @@ metadata:
     config.kubernetes.io/function: |-
       exec:
         path: /plugins/konfigure
-  name: azure-ad-pod-identity
-name: azure-ad-pod-identity-app
+  name: azure-ad-pod-identity-app
+name: azure-ad-pod-identity
