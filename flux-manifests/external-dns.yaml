@@ -1,7 +1,7 @@
 api_version: generators.giantswarm.io/v1
 app_catalog: default-test-catalog
 app_destination_namespace: giantswarm
-app_name: external-dns
+app_name: external-dns-app
 app_version: 2.23.2-210571e436fe1be54f9f6c24243aa7face19d8f2
 kind: Konfigure
 metadata:
@@ -9,5 +9,5 @@ metadata:
     config.kubernetes.io/function: |-
       exec:
         path: /plugins/konfigure
-  name: external-dns
+  name: external-dns-app
 name: external-dns-app
