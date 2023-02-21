@@ -1,13 +1,13 @@
 api_version: generators.giantswarm.io/v1
-app_catalog: control-plane-catalog
+app_catalog: default-test-catalog
 app_destination_namespace: giantswarm
-app_name: dns-operator-azure
-app_version: 1.0.1
+app_name: external-dns
+app_version: 2.23.2-210571e436fe1be54f9f6c24243aa7face19d8f2
 kind: Konfigure
 metadata:
   annotations:
     config.kubernetes.io/function: |-
       exec:
         path: /plugins/konfigure
-  name: dns-operator-azure
-name: dns-operator-azure
+  name: external-dns
+name: external-dns-app
