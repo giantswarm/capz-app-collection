@@ -1,5 +1,5 @@
 api_version: generators.giantswarm.io/v1
-app_catalog: giantswarm-catalog
+app_catalog: giantswarm
 app_destination_namespace: giantswarm
 app_name: promtail
 app_version: 1.0.1
