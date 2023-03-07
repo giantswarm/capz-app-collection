@@ -33,6 +33,7 @@ generators:
 - prometheus-remotewrite.yaml
 - prometheus-rules.yaml
 - promxy-app.yaml
+- promtail.yaml
 - rbac-operator.yaml
 - silence-operator.yaml
 - starboard-exporter.yaml
