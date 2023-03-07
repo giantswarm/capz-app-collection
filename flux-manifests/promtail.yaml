@@ -1,0 +1,13 @@
+api_version: generators.giantswarm.io/v1
+app_catalog: giantswarm-catalog
+app_destination_namespace: giantswarm
+app_name: promtail
+app_version: 1.0.1
+kind: Konfigure
+metadata:
+  annotations:
+    config.kubernetes.io/function: |-
+      exec:
+        path: /plugins/konfigure
+  name: promtail
+name: promtail
