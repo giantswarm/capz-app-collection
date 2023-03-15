@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
 app_destination_namespace: giantswarm
 app_name: dns-operator-azure
-app_version: 1.0.3-13c21187c268addc291eaf125b8125dfca513b90
+app_version: 1.0.3-d7a519ab6537ec17fd58bb9adca49abf1bb1622f
 kind: Konfigure
 metadata:
   annotations:
