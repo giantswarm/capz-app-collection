@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Bump `azure-ad-pod-identity` to add support for `kube-proxy replacement` through the use of a Cilium Local Redirect 
+
 
 
 [Unreleased]: https://github.com/giantswarm/REPOSITORY_NAME/tree/master
