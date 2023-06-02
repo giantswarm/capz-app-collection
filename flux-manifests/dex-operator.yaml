@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
 app_destination_namespace: giantswarm
 app_name: dex-operator
-app_version: 0.5.0
+app_version: 0.5.1
 kind: Konfigure
 metadata:
   annotations:
