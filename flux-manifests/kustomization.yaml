@@ -10,6 +10,7 @@ generators:
 - cluster-api-provider-azure.yaml
 - cluster-api.yaml
 - cluster-apps-operator.yaml
+- cluster-cleaner.yaml
 - dashboards.yaml
 - deletion-blocker-operator.yaml
 - dex-app.yaml
