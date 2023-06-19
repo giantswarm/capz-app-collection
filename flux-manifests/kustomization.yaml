@@ -5,7 +5,6 @@ generators:
 - athena.yaml
 - azure-ad-pod-identity-app.yaml
 - azure-private-endpoint-operator.yaml
-- capi-garbage-collector.yaml
 - cluster-api-monitoring.yaml
 - cluster-api-provider-azure.yaml
 - cluster-api.yaml
