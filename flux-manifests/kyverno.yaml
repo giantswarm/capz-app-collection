@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
 app_destination_namespace: kyverno
 app_name: kyverno
-app_version: 0.14.9
+app_version: 0.14.10
 kind: Konfigure
 metadata:
   annotations:
