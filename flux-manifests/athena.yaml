@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
 app_destination_namespace: giantswarm
 app_name: athena
-app_version: 1.10.3
+app_version: 1.11.0
 kind: Konfigure
 metadata:
   annotations:
