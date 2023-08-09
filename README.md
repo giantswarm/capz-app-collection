@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/giantswarm/template.svg?style=shield)](https://circleci.com/gh/giantswarm/template)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/giantswarm/capz-app-collection/tree/master.svg?style=svg&circle-token=6262f4107cdd1ef7125a2c00e917599e31951c3e)](https://dl.circleci.com/status-badge/redirect/gh/giantswarm/capz-app-collection/tree/master)
 
-# REPOSITORY_NAME
+# capz-app-collection
 
 This is a template repository containing some basic files every repository
 needs.
@@ -21,10 +21,5 @@ Things to do with your newly created repo:
    `Admin` access.
 5. Add this repository to https://github.com/giantswarm/github.
 6. Create quay.io docker repository if needed.
-7. Add the project to the CircleCI:
-   https://circleci.com/setup-project/gh/giantswarm/REPOSITORY_NAME
-8. Change the badge (with style=shield):
-   https://circleci.com/gh/giantswarm/REPOSITORY_NAME.svg?style=shield&circle-token=TOKEN_FOR_PRIVATE_REPO
-   If this is a private repository token with scope `status` will be needed.
 
 [generate]: https://github.com/giantswarm/template/generate
