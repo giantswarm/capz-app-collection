@@ -1,0 +1,13 @@
+api_version: generators.giantswarm.io/v1
+app_catalog: control-plane-catalog
+app_destination_namespace: kyverno-policy-operator
+app_name: kyverno-policy-operator
+app_version: 0.0.1
+kind: Konfigure
+metadata:
+  annotations:
+    config.kubernetes.io/function: |-
+      exec:
+        path: /plugins/konfigure
+  name: kyverno-policy-operator
+name: kyverno-policy-operator
