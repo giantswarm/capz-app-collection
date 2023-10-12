@@ -7,6 +7,7 @@ generators:
 - azure-private-endpoint-operator.yaml
 - cluster-api-monitoring.yaml
 - cluster-api-provider-azure.yaml
+- cluster-api-provider-vsphere.yaml
 - cluster-api.yaml
 - cluster-apps-operator.yaml
 - cluster-cleaner.yaml
