@@ -17,6 +17,7 @@ generators:
 - dex-app.yaml
 - dex-operator.yaml
 - dns-operator-azure.yaml
+- dns-operator-route53.yaml
 - encryption-provider-operator.yaml
 - etcd-backup-operator.yaml
 - grafana.yaml
