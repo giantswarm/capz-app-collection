@@ -40,6 +40,5 @@ generators:
 - rbac-operator.yaml
 - silence-operator.yaml
 - starboard-exporter.yaml
-- teleport-operator.yaml
 - trivy-operator.yaml
 - trivy.yaml
