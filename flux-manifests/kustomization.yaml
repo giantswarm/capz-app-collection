@@ -29,7 +29,6 @@ generators:
 - kyverno.yaml
 - macropower-analytics-panel-server.yaml
 - nginx-ingress-controller-app.yaml
-- node-operator.yaml
 - oauth2-proxy.yaml
 - object-storage-operator.yaml
 - organization-operator.yaml
