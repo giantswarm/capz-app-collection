@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: giantswarm
 app_destination_namespace: kube-system
 app_name: nginx-ingress-controller-app
-app_version: 2.20.0
+app_version: 2.30.1
 kind: Konfigure
 metadata:
   annotations:
