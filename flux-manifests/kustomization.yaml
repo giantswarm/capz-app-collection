@@ -28,6 +28,7 @@ generators:
 - kyverno-policies.yaml
 - kyverno-policy-operator.yaml
 - kyverno.yaml
+- logging-operator.yaml
 - loki.yaml
 - macropower-analytics-panel-server.yaml
 - nginx-ingress-controller-app.yaml
