@@ -20,6 +20,7 @@ generators:
 - exception-recommender.yaml
 - grafana.yaml
 - happa.yaml
+- ingress-nginx.yaml
 - kyverno-policies-connectivity.yaml
 - kyverno-policies-dx.yaml
 - kyverno-policies-observability.yaml
@@ -27,6 +28,7 @@ generators:
 - kyverno-policies.yaml
 - kyverno-policy-operator.yaml
 - kyverno.yaml
+- loki.yaml
 - macropower-analytics-panel-server.yaml
 - nginx-ingress-controller-app.yaml
 - oauth2-proxy.yaml
