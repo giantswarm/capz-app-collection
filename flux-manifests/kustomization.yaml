@@ -18,6 +18,7 @@ generators:
 - encryption-provider-operator.yaml
 - etcd-backup-operator.yaml
 - exception-recommender.yaml
+- falco.yaml
 - grafana.yaml
 - happa.yaml
 - ingress-nginx.yaml
