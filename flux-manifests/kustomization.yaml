@@ -5,8 +5,10 @@ generators:
 - athena.yaml
 - azure-ad-pod-identity-app.yaml
 - azure-private-endpoint-operator.yaml
+- cluster-api-ipam-provider-in-cluster.yaml
 - cluster-api-monitoring.yaml
 - cluster-api-provider-azure.yaml
+- cluster-api-provider-vsphere.yaml
 - cluster-api.yaml
 - cluster-apps-operator.yaml
 - cluster-cleaner.yaml
@@ -15,6 +17,7 @@ generators:
 - dex-app.yaml
 - dex-operator.yaml
 - dns-operator-azure.yaml
+- dns-operator-route53.yaml
 - encryption-provider-operator.yaml
 - etcd-backup-operator.yaml
 - exception-recommender.yaml

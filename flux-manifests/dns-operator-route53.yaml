@@ -1,13 +1,13 @@
 api_version: generators.giantswarm.io/v1
-app_catalog: control-plane-test-catalog
+app_catalog: control-plane-catalog
 app_destination_namespace: giantswarm
-app_name: cluster-apps-operator
-app_version: 2.18.1-3d140407b02562f4611f688dc7df6adfbf46a86f
+app_name: dns-operator-route53
+app_version: 0.8.2
 kind: Konfigure
 metadata:
   annotations:
     config.kubernetes.io/function: |-
       exec:
         path: /plugins/konfigure
-  name: cluster-apps-operator
-name: cluster-apps-operator
+  name: dns-operator-route53
+name: dns-operator-route53
