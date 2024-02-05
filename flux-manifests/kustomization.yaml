@@ -26,9 +26,6 @@ generators:
 - kyverno-policies-dx.yaml
 - kyverno-policies-observability.yaml
 - kyverno-policies-ux.yaml
-- kyverno-policies.yaml
-- kyverno-policy-operator.yaml
-- kyverno.yaml
 - logging-operator.yaml
 - loki.yaml
 - macropower-analytics-panel-server.yaml
