@@ -1,8 +1,8 @@
 api_version: generators.giantswarm.io/v1
-app_catalog: control-plane-test-catalog
+app_catalog: control-plane-catalog
 app_destination_namespace: kube-system
 app_name: azure-ad-pod-identity-app
-app_version: 0.15.1-ed4db3f588123411470a9fb5aeaeb0a4c2f08c88
+app_version: 0.15.2
 kind: Konfigure
 metadata:
   annotations:
