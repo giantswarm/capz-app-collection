@@ -31,6 +31,7 @@ generators:
 - macropower-analytics-panel-server.yaml
 - oauth2-proxy.yaml
 - object-storage-operator.yaml
+- observability-operator.yaml
 - organization-operator.yaml
 - prometheus-meta-operator.yaml
 - prometheus-remotewrite.yaml
