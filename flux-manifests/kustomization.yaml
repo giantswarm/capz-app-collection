@@ -32,6 +32,7 @@ generators:
 - object-storage-operator.yaml
 - observability-operator.yaml
 - organization-operator.yaml
+- mimir.yaml
 - prometheus-meta-operator.yaml
 - prometheus-remotewrite.yaml
 - prometheus-rules.yaml
