@@ -28,7 +28,6 @@ generators:
 - kyverno-policies-ux.yaml
 - logging-operator.yaml
 - loki.yaml
-- macropower-analytics-panel-server.yaml
 - oauth2-proxy.yaml
 - object-storage-operator.yaml
 - observability-operator.yaml
