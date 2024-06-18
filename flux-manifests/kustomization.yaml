@@ -28,11 +28,11 @@ generators:
 - kyverno-policies-ux.yaml
 - logging-operator.yaml
 - loki.yaml
+- mimir.yaml
 - oauth2-proxy.yaml
 - object-storage-operator.yaml
 - observability-operator.yaml
 - organization-operator.yaml
-- mimir.yaml
 - prometheus-meta-operator.yaml
 - prometheus-remotewrite.yaml
 - prometheus-rules.yaml
@@ -40,8 +40,8 @@ generators:
 - pss-operator.yaml
 - rbac-operator.yaml
 - silence-operator.yaml
-- sloth.yaml
 - sloth-rules.yaml
+- sloth.yaml
 - starboard-exporter.yaml
 - teleport-operator.yaml
 - trivy-operator.yaml
