@@ -1,13 +1,13 @@
 api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
 app_destination_namespace: monitoring
-app_name: prometheus-rules
-app_version: 4.3.0
+app_name: sloth-rules
+app_version: 0.31.1
 kind: Konfigure
 metadata:
   annotations:
     config.kubernetes.io/function: |-
       exec:
         path: /plugins/konfigure
-  name: prometheus-rules
-name: prometheus-rules
+  name: sloth-rules
+name: sloth-rules
