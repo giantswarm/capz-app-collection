@@ -40,6 +40,8 @@ generators:
 - pss-operator.yaml
 - rbac-operator.yaml
 - silence-operator.yaml
+- sloth.yaml
+- sloth-rules.yaml
 - starboard-exporter.yaml
 - teleport-operator.yaml
 - trivy-operator.yaml
