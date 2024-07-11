@@ -37,6 +37,7 @@ generators:
 - prometheus-rules.yaml
 - pss-operator.yaml
 - rbac-operator.yaml
+- releases-azure.yaml
 - silence-operator.yaml
 - sloth-rules.yaml
 - sloth.yaml
