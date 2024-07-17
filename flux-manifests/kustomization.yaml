@@ -22,6 +22,7 @@ generators:
 - grafana.yaml
 - happa.yaml
 - ingress-nginx.yaml
+- kube-downscaler.yaml
 - kyverno-policies-connectivity.yaml
 - kyverno-policies-dx.yaml
 - kyverno-policies-observability.yaml
