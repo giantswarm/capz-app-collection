@@ -46,3 +46,4 @@ generators:
 - teleport-operator.yaml
 - trivy-operator.yaml
 - trivy.yaml
+- upgrade-schedule-operator.yaml
