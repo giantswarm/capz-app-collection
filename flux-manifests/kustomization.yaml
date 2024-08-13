@@ -5,10 +5,10 @@ generators:
 - athena.yaml
 - azure-ad-pod-identity-app.yaml
 - azure-private-endpoint-operator.yaml
+- cluster-api-events.yaml
 - cluster-api-monitoring.yaml
 - cluster-api-provider-azure.yaml
 - cluster-api.yaml
-- cluster-api-events.yaml
 - cluster-apps-operator.yaml
 - cluster-cleaner.yaml
 - dashboards.yaml
