@@ -18,6 +18,7 @@ generators:
 - dns-operator-azure.yaml
 - encryption-provider-operator.yaml
 - etcd-backup-operator.yaml
+- event-exporter-app.yaml
 - exception-recommender.yaml
 - falco.yaml
 - grafana.yaml
