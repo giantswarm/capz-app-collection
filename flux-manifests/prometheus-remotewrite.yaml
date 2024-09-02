@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
 app_destination_namespace: monitoring
 app_name: prometheus-remotewrite
-app_version: 0.2.3
+app_version: 0.3.0
 kind: Konfigure
 metadata:
   annotations:
