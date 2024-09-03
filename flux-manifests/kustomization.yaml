@@ -22,6 +22,7 @@ generators:
 - exception-recommender.yaml
 - falco.yaml
 - grafana.yaml
+- grafana-multi-tenant-proxy.yaml
 - happa.yaml
 - ingress-nginx.yaml
 - kube-downscaler.yaml
