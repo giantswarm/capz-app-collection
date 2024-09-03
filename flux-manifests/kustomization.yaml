@@ -21,8 +21,8 @@ generators:
 - event-exporter-app.yaml
 - exception-recommender.yaml
 - falco.yaml
-- grafana.yaml
 - grafana-multi-tenant-proxy.yaml
+- grafana.yaml
 - happa.yaml
 - ingress-nginx.yaml
 - kube-downscaler.yaml
