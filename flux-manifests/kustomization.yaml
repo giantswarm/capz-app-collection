@@ -23,7 +23,6 @@ generators:
 - exception-recommender.yaml
 - falco.yaml
 - fluent-logshipping-app.yaml
-- grafana-multi-tenant-proxy.yaml
 - grafana.yaml
 - happa.yaml
 - ingress-nginx.yaml
