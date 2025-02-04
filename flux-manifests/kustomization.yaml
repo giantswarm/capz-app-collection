@@ -39,7 +39,6 @@ generators:
 - observability-operator.yaml
 - observability-platform-api.yaml
 - organization-operator.yaml
-- prometheus-meta-operator.yaml
 - prometheus-remotewrite.yaml
 - prometheus-rules.yaml
 - pss-operator.yaml
