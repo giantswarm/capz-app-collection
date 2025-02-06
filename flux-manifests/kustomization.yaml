@@ -34,7 +34,6 @@ generators:
 - logging-operator.yaml
 - loki.yaml
 - mimir.yaml
-- oauth2-proxy.yaml
 - object-storage-operator.yaml
 - observability-operator.yaml
 - observability-platform-api.yaml
