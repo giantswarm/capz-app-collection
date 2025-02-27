@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
 app_destination_namespace: giantswarm
 app_name: app-operator
-app_version: 7.0.1
+app_version: 7.1.0
 kind: Konfigure
 metadata:
   annotations:
