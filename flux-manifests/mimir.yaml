@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
 app_destination_namespace: mimir
 app_name: mimir
-app_version: 0.16.0
+app_version: 0.17.0
 kind: Konfigure
 metadata:
   annotations:
