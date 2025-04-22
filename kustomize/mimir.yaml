@@ -1,0 +1,23 @@
+apiVersion: application.giantswarm.io/v1alpha1
+kind: App
+metadata:
+  annotations:
+    chart-operator.giantswarm.io/force-helm-upgrade: "true"
+  labels:
+    app-operator.giantswarm.io/version: 0.0.0
+  name: mimir
+  namespace: giantswarm
+spec:
+  catalog: control-plane-catalog
+  config:
+    configMap:
+      name: mimir-konfiguration
+      namespace: giantswarm
+    secret:
+      name: mimir-konfiguration
+      namespace: giantswarm
+  kubeConfig:
+    inCluster: true
+  name: mimir
+  namespace: mimir
+  version: 0.17.0

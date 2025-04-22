@@ -1,0 +1,23 @@
+apiVersion: application.giantswarm.io/v1alpha1
+kind: App
+metadata:
+  annotations:
+    chart-operator.giantswarm.io/force-helm-upgrade: "true"
+  labels:
+    app-operator.giantswarm.io/version: 0.0.0
+  name: loki
+  namespace: giantswarm
+spec:
+  catalog: control-plane-catalog
+  config:
+    configMap:
+      name: loki-konfiguration
+      namespace: giantswarm
+    secret:
+      name: loki-konfiguration
+      namespace: giantswarm
+  kubeConfig:
+    inCluster: true
+  name: loki
+  namespace: loki
+  version: 0.28.0

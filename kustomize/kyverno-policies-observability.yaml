@@ -1,0 +1,23 @@
+apiVersion: application.giantswarm.io/v1alpha1
+kind: App
+metadata:
+  annotations:
+    chart-operator.giantswarm.io/force-helm-upgrade: "true"
+  labels:
+    app-operator.giantswarm.io/version: 0.0.0
+  name: kyverno-policies-observability
+  namespace: giantswarm
+spec:
+  catalog: control-plane-catalog
+  config:
+    configMap:
+      name: kyverno-policies-observability-konfiguration
+      namespace: giantswarm
+    secret:
+      name: kyverno-policies-observability-konfiguration
+      namespace: giantswarm
+  kubeConfig:
+    inCluster: true
+  name: kyverno-policies-observability
+  namespace: giantswarm
+  version: 0.6.0

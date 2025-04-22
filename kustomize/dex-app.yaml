@@ -1,0 +1,23 @@
+apiVersion: application.giantswarm.io/v1alpha1
+kind: App
+metadata:
+  annotations:
+    chart-operator.giantswarm.io/force-helm-upgrade: "true"
+  labels:
+    app-operator.giantswarm.io/version: 0.0.0
+  name: dex-app
+  namespace: giantswarm
+spec:
+  catalog: control-plane-catalog
+  config:
+    configMap:
+      name: dex-app-konfiguration
+      namespace: giantswarm
+    secret:
+      name: dex-app-konfiguration
+      namespace: giantswarm
+  kubeConfig:
+    inCluster: true
+  name: dex-app
+  namespace: giantswarm
+  version: 1.42.13
