@@ -1,0 +1,23 @@
+apiVersion: application.giantswarm.io/v1alpha1
+kind: App
+metadata:
+  annotations:
+    chart-operator.giantswarm.io/force-helm-upgrade: "true"
+  labels:
+    app-operator.giantswarm.io/version: 0.0.0
+  name: app-exporter
+  namespace: giantswarm
+spec:
+  catalog: control-plane-catalog
+  config:
+    configMap:
+      name: app-exporter-konfiguration
+      namespace: giantswarm
+    secret:
+      name: app-exporter-konfiguration
+      namespace: giantswarm
+  kubeConfig:
+    inCluster: true
+  name: app-exporter
+  namespace: giantswarm
+  version: 1.0.1

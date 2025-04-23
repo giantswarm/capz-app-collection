@@ -1,0 +1,23 @@
+apiVersion: application.giantswarm.io/v1alpha1
+kind: App
+metadata:
+  annotations:
+    chart-operator.giantswarm.io/force-helm-upgrade: "true"
+  labels:
+    app-operator.giantswarm.io/version: 0.0.0
+  name: kube-downscaler
+  namespace: giantswarm
+spec:
+  catalog: control-plane-catalog
+  config:
+    configMap:
+      name: kube-downscaler-konfiguration
+      namespace: giantswarm
+    secret:
+      name: kube-downscaler-konfiguration
+      namespace: giantswarm
+  kubeConfig:
+    inCluster: true
+  name: kube-downscaler
+  namespace: kube-system
+  version: 0.6.2
