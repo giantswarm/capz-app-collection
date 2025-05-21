@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
 app_destination_namespace: giantswarm
 app_name: kyverno-policies-observability
-app_version: 0.6.0
+app_version: 0.7.0
 kind: Konfigure
 metadata:
   annotations:
