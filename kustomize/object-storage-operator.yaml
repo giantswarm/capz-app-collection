@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: object-storage-operator
   namespace: giantswarm
-  version: 0.11.0
+  version: 0.12.0
