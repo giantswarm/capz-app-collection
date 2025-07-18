@@ -1,3 +1,4 @@
 generators:
 - cluster-api-events.yaml
 - ingress-nginx.yaml
+- konfigure-operator.yaml
