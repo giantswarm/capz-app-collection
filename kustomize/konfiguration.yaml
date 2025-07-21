@@ -80,5 +80,3 @@ spec:
       gitRepository:
         name: giantswarm-config
         namespace: flux-giantswarm
-      service:
-        url: source-controller.flux-giantswarm.svc
