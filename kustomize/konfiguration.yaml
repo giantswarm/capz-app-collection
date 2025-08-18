@@ -16,6 +16,7 @@ spec:
           - athena
           - azure-ad-pod-identity-app
           - azure-private-endpoint-operator
+          - azure-workload-identity-webhook
           - cloudnative-pg
           - cluster-api
           - cluster-api-events
