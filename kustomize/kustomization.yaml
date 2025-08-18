@@ -6,6 +6,7 @@ resources:
 - athena.yaml
 - azure-ad-pod-identity-app.yaml
 - azure-private-endpoint-operator.yaml
+- azure-workload-identity-webhook.yaml
 - cloudnative-pg.yaml
 - cluster-api-events.yaml
 - cluster-api-monitoring.yaml
