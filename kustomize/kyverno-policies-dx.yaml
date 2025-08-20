@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: kyverno-policies-dx
   namespace: giantswarm
-  version: 0.7.1
+  version: 0.7.2
