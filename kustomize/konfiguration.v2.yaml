@@ -1,0 +1,254 @@
+---
+apiVersion: konfigure.giantswarm.io/v1alpha1
+kind: Konfiguration
+metadata:
+  name: collection-konfiguration
+  namespace: giantswarm
+spec:
+  targets:
+    schema:
+      reference:
+        name: management-cluster-configuration
+        namespace: giantswarm
+    defaults:
+      variables:
+        - name: installation
+          value: ""
+    iterations:
+      alloy-gateway:
+        variables:
+          - name: app
+            value: alloy-gateway
+      app-admission-controller:
+        variables:
+          - name: app
+            value: app-admission-controller
+      app-exporter:
+        variables:
+          - name: app
+            value: app-exporter
+      app-operator:
+        variables:
+          - name: app
+            value: app-operator
+      athena:
+        variables:
+          - name: app
+            value: athena
+      azure-ad-pod-identity-app:
+        variables:
+          - name: app
+            value: azure-ad-pod-identity-app
+      azure-private-endpoint-operator:
+        variables:
+          - name: app
+            value: azure-private-endpoint-operator
+      azure-workload-identity-webhook:
+        variables:
+          - name: app
+            value: azure-workload-identity-webhook
+      cloudnative-pg:
+        variables:
+          - name: app
+            value: cloudnative-pg
+      cluster-api:
+        variables:
+          - name: app
+            value: cluster-api
+      cluster-api-events:
+        variables:
+          - name: app
+            value: cluster-api-events
+      cluster-api-monitoring:
+        variables:
+          - name: app
+            value: cluster-api-monitoring
+      cluster-api-provider-azure:
+        variables:
+          - name: app
+            value: cluster-api-provider-azure
+      cluster-apps-operator:
+        variables:
+          - name: app
+            value: cluster-apps-operator
+      cluster-cleaner:
+        variables:
+          - name: app
+            value: cluster-cleaner
+      dashboards:
+        variables:
+          - name: app
+            value: dashboards
+      deletion-blocker-operator:
+        variables:
+          - name: app
+            value: deletion-blocker-operator
+      dex-app:
+        variables:
+          - name: app
+            value: dex-app
+      dex-operator:
+        variables:
+          - name: app
+            value: dex-operator
+      dns-operator-azure:
+        variables:
+          - name: app
+            value: dns-operator-azure
+      encryption-provider-operator:
+        variables:
+          - name: app
+            value: encryption-provider-operator
+      etcd-backup-operator:
+        variables:
+          - name: app
+            value: etcd-backup-operator
+      event-exporter-app:
+        variables:
+          - name: app
+            value: event-exporter-app
+      exception-recommender:
+        variables:
+          - name: app
+            value: exception-recommender
+      falco:
+        variables:
+          - name: app
+            value: falco
+      fluent-logshipping-app:
+        variables:
+          - name: app
+            value: fluent-logshipping-app
+      grafana:
+        variables:
+          - name: app
+            value: grafana
+      happa:
+        variables:
+          - name: app
+            value: happa
+      ingress-nginx:
+        variables:
+          - name: app
+            value: ingress-nginx
+      keda:
+        variables:
+          - name: app
+            value: keda
+      konfigure-operator:
+        variables:
+          - name: app
+            value: konfigure-operator
+      kube-downscaler:
+        variables:
+          - name: app
+            value: kube-downscaler
+      kyverno-policies-connectivity:
+        variables:
+          - name: app
+            value: kyverno-policies-connectivity
+      kyverno-policies-dx:
+        variables:
+          - name: app
+            value: kyverno-policies-dx
+      kyverno-policies-observability:
+        variables:
+          - name: app
+            value: kyverno-policies-observability
+      kyverno-policies-ux:
+        variables:
+          - name: app
+            value: kyverno-policies-ux
+      logging-operator:
+        variables:
+          - name: app
+            value: logging-operator
+      loki:
+        variables:
+          - name: app
+            value: loki
+      mimir:
+        variables:
+          - name: app
+            value: mimir
+      object-storage-operator:
+        variables:
+          - name: app
+            value: object-storage-operator
+      observability-operator:
+        variables:
+          - name: app
+            value: observability-operator
+      observability-platform-api:
+        variables:
+          - name: app
+            value: observability-platform-api
+      organization-operator:
+        variables:
+          - name: app
+            value: organization-operator
+      prometheus-remotewrite:
+        variables:
+          - name: app
+            value: prometheus-remotewrite
+      prometheus-rules:
+        variables:
+          - name: app
+            value: prometheus-rules
+      pss-operator:
+        variables:
+          - name: app
+            value: pss-operator
+      rbac-operator:
+        variables:
+          - name: app
+            value: rbac-operator
+      silence-operator:
+        variables:
+          - name: app
+            value: silence-operator
+      sloth:
+        variables:
+          - name: app
+            value: sloth
+      sloth-rules:
+        variables:
+          - name: app
+            value: sloth-rules
+      starboard-exporter:
+        variables:
+          - name: app
+            value: starboard-exporter
+      teleport-operator:
+        variables:
+          - name: app
+            value: teleport-operator
+      teleport-tbot:
+        variables:
+          - name: app
+            value: teleport-tbot
+      trivy:
+        variables:
+          - name: app
+            value: trivy
+      trivy-operator:
+        variables:
+          - name: app
+            value: trivy-operator
+      upgrade-schedule-operator:
+        variables:
+          - name: app
+            value: upgrade-schedule-operator
+  destination:
+    namespace: giantswarm
+    naming:
+      suffix: konfiguration
+  reconciliation:
+    interval: 1m
+    retryInterval: 10s
+    suspend: true
+  sources:
+    flux:
+      gitRepository:
+        name: "giantswarm-config"
+        namespace: "flux-giantswarm"
