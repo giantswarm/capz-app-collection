@@ -30,6 +30,7 @@ resources:
 - ingress-nginx.yaml
 - keda.yaml
 - konfiguration.yaml
+- konfiguration.v2.yaml
 - konfigure-operator.yaml
 - kube-downscaler.yaml
 - kyverno-policies-connectivity.yaml
