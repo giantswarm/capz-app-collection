@@ -13,7 +13,7 @@ spec:
     defaults:
       variables:
         - name: installation
-          value: ""
+          value: "${cluster_name}"
     iterations:
       alloy-gateway:
         variables:
