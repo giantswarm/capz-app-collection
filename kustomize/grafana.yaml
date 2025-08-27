@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: grafana
   namespace: monitoring
-  version: 2.25.0
+  version: 2.25.1
