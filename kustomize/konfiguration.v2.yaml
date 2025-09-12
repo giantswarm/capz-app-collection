@@ -35,10 +35,6 @@ spec:
         variables:
           - name: app
             value: athena
-      azure-ad-pod-identity-app:
-        variables:
-          - name: app
-            value: azure-ad-pod-identity-app
       azure-private-endpoint-operator:
         variables:
           - name: app
