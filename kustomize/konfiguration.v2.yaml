@@ -223,6 +223,10 @@ spec:
         variables:
           - name: app
             value: teleport-tbot
+      tempo:
+        variables:
+          - name: app
+            value: tempo
       trivy:
         variables:
           - name: app
