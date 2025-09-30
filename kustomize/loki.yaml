@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: loki
   namespace: loki
-  version: 0.31.1
+  version: 0.31.2
