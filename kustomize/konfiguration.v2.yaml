@@ -191,10 +191,6 @@ spec:
         variables:
           - name: app
             value: prometheus-rules
-      pss-operator:
-        variables:
-          - name: app
-            value: pss-operator
       rbac-operator:
         variables:
           - name: app
