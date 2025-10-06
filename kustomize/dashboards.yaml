@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: dashboards
   namespace: monitoring
-  version: 4.8.2
+  version: 4.9.0
