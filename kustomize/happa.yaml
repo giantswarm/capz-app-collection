@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: happa
   namespace: giantswarm
-  version: 1.71.5
+  version: 1.71.6
