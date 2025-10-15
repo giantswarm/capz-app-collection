@@ -115,6 +115,10 @@ spec:
         variables:
           - name: app
             value: fluent-logshipping-app
+      gateway-api-bundle:
+        variables:
+          - name: app
+            value: gateway-api-bundle
       grafana:
         variables:
           - name: app
