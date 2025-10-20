@@ -24,8 +24,8 @@ resources:
 - exception-recommender.yaml
 - falco.yaml
 - fluent-logshipping-app.yaml
-- grafana.yaml
 - gateway-api-bundle.yaml
+- grafana.yaml
 - happa.yaml
 - ingress-nginx.yaml
 - keda.yaml
@@ -39,6 +39,7 @@ resources:
 - logging-operator.yaml
 - loki.yaml
 - mimir.yaml
+- oauth2-proxy.yaml
 - object-storage-operator.yaml
 - observability-operator.yaml
 - observability-platform-api.yaml
