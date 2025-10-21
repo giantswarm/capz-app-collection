@@ -1,5 +1,4 @@
 resources:
-- alloy-gateway.yaml
 - app-admission-controller.yaml
 - app-exporter.yaml
 - app-operator.yaml
