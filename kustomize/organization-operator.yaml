@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: organization-operator
   namespace: giantswarm
-  version: 2.1.1
+  version: 2.1.2
