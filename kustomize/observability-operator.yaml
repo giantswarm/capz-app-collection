@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: observability-operator
   namespace: monitoring
-  version: 0.48.1
+  version: 0.49.0
