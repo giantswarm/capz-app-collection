@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: plugin-barman-cloud
   namespace: giantswarm
-  version: 0.2.0
+  version: 0.2.1
