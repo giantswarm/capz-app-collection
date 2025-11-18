@@ -43,6 +43,7 @@ resources:
 - observability-operator.yaml
 - observability-platform-api.yaml
 - organization-operator.yaml
+- plugin-barman-cloud.yaml
 - prometheus-remotewrite.yaml
 - prometheus-rules.yaml
 - rbac-operator.yaml

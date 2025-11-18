@@ -191,6 +191,10 @@ spec:
         variables:
           - name: app
             value: organization-operator
+      plugin-barman-cloud:
+        variables:
+          - name: app
+            value: plugin-barman-cloud
       prometheus-remotewrite:
         variables:
           - name: app
