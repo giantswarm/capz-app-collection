@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: encryption-provider-operator
   namespace: giantswarm
-  version: 0.5.1
+  version: 0.7.0
