@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: prometheus-rules
   namespace: monitoring
-  version: 4.88.1
+  version: 4.89.0
