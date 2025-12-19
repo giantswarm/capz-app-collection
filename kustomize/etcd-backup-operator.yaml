@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: etcd-backup-operator
   namespace: giantswarm
-  version: 4.13.0
+  version: 4.13.1
