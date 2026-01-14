@@ -55,10 +55,6 @@ spec:
         variables:
           - name: app
             value: cluster-api-events
-      cluster-api-monitoring:
-        variables:
-          - name: app
-            value: cluster-api-monitoring
       cluster-api-provider-azure:
         variables:
           - name: app
