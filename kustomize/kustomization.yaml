@@ -7,7 +7,6 @@ resources:
 - azure-workload-identity-webhook.yaml
 - cloudnative-pg.yaml
 - cluster-api-events.yaml
-- cluster-api-monitoring.yaml
 - cluster-api-provider-azure.yaml
 - cluster-api.yaml
 - cluster-apps-operator.yaml
