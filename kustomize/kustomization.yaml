@@ -34,7 +34,6 @@ resources:
 - kyverno-policies-dx.yaml
 - kyverno-policies-observability.yaml
 - kyverno-policies-ux.yaml
-- logging-operator.yaml
 - loki.yaml
 - mimir.yaml
 - oauth2-proxy.yaml

@@ -155,10 +155,6 @@ spec:
         variables:
           - name: app
             value: kyverno-policies-ux
-      logging-operator:
-        variables:
-          - name: app
-            value: logging-operator
       loki:
         variables:
           - name: app
