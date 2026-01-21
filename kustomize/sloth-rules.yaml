@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: sloth-rules
   namespace: monitoring
-  version: 0.46.2
+  version: 0.47.0
