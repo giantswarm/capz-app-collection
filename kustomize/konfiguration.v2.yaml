@@ -15,10 +15,6 @@ spec:
         - name: installation
           value: "${cluster_name}"
     iterations:
-      alloy-gateway:
-        variables:
-          - name: app
-            value: alloy-gateway
       app-admission-controller:
         variables:
           - name: app
