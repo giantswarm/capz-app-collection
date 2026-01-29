@@ -3,6 +3,7 @@ kind: App
 metadata:
   annotations:
     chart-operator.giantswarm.io/force-helm-upgrade: "true"
+    app-operator.giantswarm.io/paused: "true"
   labels:
     app-operator.giantswarm.io/version: 0.0.0
   name: app-operator
