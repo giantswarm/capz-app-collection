@@ -1,5 +1,4 @@
 resources:
-- app-admission-controller.yaml
 - athena.yaml
 - azure-private-endpoint-operator.yaml
 - azure-workload-identity-webhook.yaml
