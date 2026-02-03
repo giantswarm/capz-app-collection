@@ -231,10 +231,6 @@ spec:
         variables:
           - name: app
             value: trivy-operator
-      upgrade-schedule-operator:
-        variables:
-          - name: app
-            value: upgrade-schedule-operator
   destination:
     namespace: giantswarm
     naming:
