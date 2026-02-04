@@ -21,7 +21,6 @@ resources:
 - fluent-logshipping-app.yaml
 - gateway-api-bundle.yaml
 - grafana.yaml
-- happa.yaml
 - ingress-nginx.yaml
 - keda.yaml
 - konfiguration.v2.yaml
