@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: dns-operator-azure
   namespace: giantswarm
-  version: 2.3.2
+  version: 2.3.3
