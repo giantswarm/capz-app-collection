@@ -37,7 +37,6 @@ resources:
 - organization-operator.yaml
 - plugin-barman-cloud.yaml
 - prometheus-remotewrite.yaml
-- prometheus-rules.yaml
 - rbac-operator.yaml
 - silence-operator.yaml
 - sloth-rules.yaml
