@@ -1,5 +1,4 @@
 resources:
-- athena.yaml
 - azure-private-endpoint-operator.yaml
 - azure-workload-identity-webhook.yaml
 - cloudnative-pg.yaml
