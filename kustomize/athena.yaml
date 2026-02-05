@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: athena
   namespace: giantswarm
-  version: 1.15.0
+  version: 1.15.1
