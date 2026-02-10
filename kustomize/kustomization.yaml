@@ -4,7 +4,6 @@ resources:
 - cluster-api-events.yaml
 - cluster-api-provider-azure.yaml
 - cluster-api.yaml
-- cluster-cleaner.yaml
 - dashboards.yaml
 - deletion-blocker-operator.yaml
 - dex-app.yaml
