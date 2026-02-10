@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: cluster-api-events
   namespace: giantswarm
-  version: 1.2.4
+  version: 1.2.5
