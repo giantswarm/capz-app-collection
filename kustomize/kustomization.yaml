@@ -3,7 +3,6 @@ resources:
 - azure-workload-identity-webhook.yaml
 - cluster-api-events.yaml
 - cluster-api-provider-azure.yaml
-- cluster-api.yaml
 - dashboards.yaml
 - deletion-blocker-operator.yaml
 - dex-app.yaml
