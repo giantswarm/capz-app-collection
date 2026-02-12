@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: observability-platform-api
   namespace: monitoring
-  version: 0.1.1
+  version: 0.1.2
