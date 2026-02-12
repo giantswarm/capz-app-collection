@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: tempo
   namespace: tempo
-  version: 0.10.0
+  version: 0.10.1
