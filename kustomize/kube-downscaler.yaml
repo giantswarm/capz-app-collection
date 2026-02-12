@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: kube-downscaler
   namespace: kube-system
-  version: 0.6.2
+  version: 0.6.3
