@@ -16,7 +16,6 @@ resources:
 - ingress-nginx.yaml
 - keda.yaml
 - konfiguration.v2.yaml
-- kube-downscaler.yaml
 - kyverno-policies-connectivity.yaml
 - kyverno-policies-dx.yaml
 - kyverno-policies-observability.yaml
