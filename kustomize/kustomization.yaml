@@ -32,7 +32,6 @@ resources:
 - rbac-operator.yaml
 - silence-operator.yaml
 - sloth-rules.yaml
-- sloth.yaml
 - starboard-exporter.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml
