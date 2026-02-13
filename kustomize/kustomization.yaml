@@ -30,7 +30,6 @@ resources:
 - prometheus-remotewrite.yaml
 - rbac-operator.yaml
 - silence-operator.yaml
-- sloth-rules.yaml
 - starboard-exporter.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml
