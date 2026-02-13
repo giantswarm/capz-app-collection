@@ -18,7 +18,6 @@ resources:
 - konfiguration.v2.yaml
 - kyverno-policies-connectivity.yaml
 - kyverno-policies-dx.yaml
-- kyverno-policies-observability.yaml
 - kyverno-policies-ux.yaml
 - loki.yaml
 - mimir.yaml
