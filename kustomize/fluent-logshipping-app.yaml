@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: fluent-logshipping-app
   namespace: monitoring
-  version: 5.5.1
+  version: 5.5.2
