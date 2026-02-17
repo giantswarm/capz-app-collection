@@ -31,6 +31,10 @@ spec:
         variables:
           - name: app
             value: athena
+      azure-private-dns-crossplane-resources:
+        variables:
+          - name: app
+            value: azure-private-dns-crossplane-resources
       azure-private-endpoint-operator:
         variables:
           - name: app
