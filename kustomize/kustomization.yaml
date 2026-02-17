@@ -13,7 +13,6 @@ resources:
 - falco.yaml
 - fluent-logshipping-app.yaml
 - gateway-api-bundle.yaml
-- ingress-nginx.yaml
 - keda.yaml
 - konfiguration.v2.yaml
 - kyverno-policies-connectivity.yaml
