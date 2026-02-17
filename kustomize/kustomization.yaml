@@ -20,7 +20,6 @@ resources:
 - mimir.yaml
 - oauth2-proxy.yaml
 - object-storage-operator.yaml
-- observability-platform-api.yaml
 - organization-operator.yaml
 - plugin-barman-cloud.yaml
 - prometheus-remotewrite.yaml
