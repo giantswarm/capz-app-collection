@@ -16,7 +16,6 @@ resources:
 - keda.yaml
 - konfiguration.v2.yaml
 - kyverno-policies-connectivity.yaml
-- kyverno-policies-ux.yaml
 - loki.yaml
 - mimir.yaml
 - oauth2-proxy.yaml
