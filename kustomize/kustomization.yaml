@@ -15,7 +15,6 @@ resources:
 - gateway-api-bundle.yaml
 - keda.yaml
 - konfiguration.v2.yaml
-- kyverno-policies-connectivity.yaml
 - loki.yaml
 - mimir.yaml
 - oauth2-proxy.yaml
