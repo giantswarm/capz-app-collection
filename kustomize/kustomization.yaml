@@ -2,7 +2,6 @@ resources:
 - azure-private-endpoint-operator.yaml
 - azure-workload-identity-webhook.yaml
 - cluster-api-provider-azure.yaml
-- dashboards.yaml
 - deletion-blocker-operator.yaml
 - dex-app.yaml
 - dex-operator.yaml
