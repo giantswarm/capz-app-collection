@@ -14,7 +14,6 @@ resources:
 - gateway-api-bundle.yaml
 - keda.yaml
 - konfiguration.v2.yaml
-- mimir.yaml
 - oauth2-proxy.yaml
 - rbac-operator.yaml
 - starboard-exporter.yaml
