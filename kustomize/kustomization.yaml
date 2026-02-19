@@ -16,7 +16,6 @@ resources:
 - konfiguration.v2.yaml
 - oauth2-proxy.yaml
 - rbac-operator.yaml
-- starboard-exporter.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml
 - tempo.yaml
