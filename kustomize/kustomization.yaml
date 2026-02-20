@@ -15,7 +15,6 @@ resources:
 - keda.yaml
 - konfiguration.v2.yaml
 - oauth2-proxy.yaml
-- rbac-operator.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml
 - tempo.yaml
