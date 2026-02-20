@@ -12,7 +12,6 @@ resources:
 - falco.yaml
 - fluent-logshipping-app.yaml
 - gateway-api-bundle.yaml
-- keda.yaml
 - konfiguration.v2.yaml
 - oauth2-proxy.yaml
 - teleport-operator.yaml
