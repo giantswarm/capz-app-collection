@@ -8,7 +8,6 @@ resources:
 - etcd-backup-operator.yaml
 - event-exporter-app.yaml
 - exception-recommender.yaml
-- falco.yaml
 - konfiguration.v2.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml
