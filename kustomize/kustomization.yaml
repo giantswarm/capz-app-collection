@@ -9,7 +9,6 @@ resources:
 - event-exporter-app.yaml
 - exception-recommender.yaml
 - falco.yaml
-- gateway-api-bundle.yaml
 - konfiguration.v2.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml
