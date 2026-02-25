@@ -6,7 +6,6 @@ resources:
 - dex-operator.yaml
 - dns-operator-azure.yaml
 - event-exporter-app.yaml
-- exception-recommender.yaml
 - konfiguration.v2.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml

@@ -99,10 +99,6 @@ spec:
         variables:
           - name: app
             value: event-exporter-app
-      exception-recommender:
-        variables:
-          - name: app
-            value: exception-recommender
       falco:
         variables:
           - name: app
