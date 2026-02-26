@@ -9,5 +9,4 @@ resources:
 - konfiguration.v2.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml
-- tempo.yaml
 - trivy-operator.yaml
