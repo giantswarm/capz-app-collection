@@ -9,4 +9,3 @@ resources:
 - konfiguration.v2.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml
-- trivy-operator.yaml
