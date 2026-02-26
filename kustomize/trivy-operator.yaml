@@ -20,4 +20,4 @@ spec:
     inCluster: true
   name: trivy-operator
   namespace: giantswarm
-  version: 0.12.1
+  version: 0.12.2
