@@ -1,5 +1,4 @@
 resources:
-- azure-private-endpoint-operator.yaml
 - azure-workload-identity-webhook.yaml
 - cluster-api-provider-azure.yaml
 - dex-app.yaml
