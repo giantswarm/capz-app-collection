@@ -1,5 +1,4 @@
 resources:
-- azure-workload-identity-webhook.yaml
 - cluster-api-provider-azure.yaml
 - dex-app.yaml
 - dex-operator.yaml
