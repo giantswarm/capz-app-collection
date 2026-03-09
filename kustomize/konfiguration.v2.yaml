@@ -163,10 +163,6 @@ spec:
         variables:
           - name: app
             value: oauth2-proxy
-      object-storage-operator:
-        variables:
-          - name: app
-            value: object-storage-operator
       observability-operator:
         variables:
           - name: app
