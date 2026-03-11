@@ -1,7 +1,6 @@
 resources:
 - dex-app.yaml
 - dex-operator.yaml
-- ingress-nginx.yaml
 - konfiguration.v2.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml
