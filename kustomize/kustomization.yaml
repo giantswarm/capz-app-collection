@@ -1,6 +1,5 @@
 resources:
 - dex-app.yaml
 - dex-operator.yaml
-- konfiguration.v2.yaml
 - teleport-operator.yaml
 - teleport-tbot.yaml
