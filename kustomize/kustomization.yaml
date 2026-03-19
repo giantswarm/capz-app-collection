@@ -1,4 +1,3 @@
 resources:
 - dex-app.yaml
-- teleport-operator.yaml
 - teleport-tbot.yaml
